@@ -177,7 +177,7 @@
 .btn {
     width: 200px;
     height: 50px;
-    background-color: rgb(209, 30, 188);
+    background-color: rgb(209, 30, 188, 1);
     border-radius: 20px;
     position: absolute;
     display: flex;
@@ -191,9 +191,11 @@
     cursor: pointer;
 }
 .bacg{
+    position: absolute;
     width: 100%;
     height: 250px;
-    background: linear-gradient(0deg, rgba(130,0,227,1) 0%, rgba(111,0,227,1) 22%, rgba(119,0,227,1) 36%, rgba(142,0,227,1) 53%, rgba(149,0,227,1) 66%, rgba(227,0,122,1) 100%);    animation-name: fon_animation;
+    background: linear-gradient(0deg, rgba(130,0,227,1) 0%, rgba(111,0,227,1) 22%, rgba(119,0,227,1) 36%, rgba(142,0,227,1) 53%, rgba(149,0,227,1) 66%, rgba(227,0,122,1) 100%);    
+    animation-name: fon_animation;
     animation-duration: 3500ms;
     animation-direction:normal;
     animation-iteration-count: infinite;
