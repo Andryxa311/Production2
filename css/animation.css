@@ -4,21 +4,21 @@
         /* z-index: 2; */
         /* transform: scaleX(1); */
         /* transform: scaleY(1); */
-        transform: translateY(0px);
+        /* transform: translateY(0px); */
     /* width: 65px; */
     }
     50% {
         /* z-index: 2; */
         /* transform: scaleX(0.1); */
         /* transform: scaleY(0.1); */
-        transform: translateY(-10px);
+        /* transform: translateY(-10px); */
     /* width: 50px; */
     }
     100% {
         /* z-index: 2; */
         /* transform: scaleX(1); */
         /* transform: scaleY(1); */
-        transform: translateY(0px);
+        /* transform: translateY(0px); */
     /* width: 20px; */
     }
 }
