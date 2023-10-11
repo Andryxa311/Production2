@@ -25,22 +25,22 @@
 @keyframes fon_animation {
     0% {
         /* transform: translate(0px,0px) */
-        top: 0px;
+        margin-top: 0px;
     }
     25% {
         /* transform: translate(0px,50px) */
-        top: -30px;
+        margin-top: 50px;
     }
     /* 50% {
         transform: translate(0px,50px)
     } */
     75% {
         /* transform: translate(0px,-50px) */
-        top: 0px;
+        margin-top: -50px;
     }
     100% {
         /* transform: translate(0px,0px) */
-        top: 0px;
+        margin-top: 0px;
     }
 }
 @keyframes ball_animation {
