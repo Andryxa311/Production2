@@ -1,5 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap'); */
+.fotter_left {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 .link {
     text-decoration: none;
     color: inherit;
@@ -191,18 +197,15 @@
     cursor: pointer;
 }
 .bacg{
-    /* position: absolute; */
     width: 100%;
     height: 250px;
     margin-top: 50px;
-    /* top: 0px; */
     background: linear-gradient(0deg, rgba(130,0,227,1) 0%, rgba(111,0,227,1) 22%, rgba(119,0,227,1) 36%, rgba(142,0,227,1) 53%, rgba(149,0,227,1) 66%, rgba(227,0,122,1) 100%);    
     animation-name: fon_animation;
     animation-duration: 3500ms;
     animation-direction:normal;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    /* transform: translate(inherit,inherit); */
 }
 .ball1 {
     left: 20px;
@@ -827,7 +830,7 @@
 .seven_content_text {
     font-family: 'Oswald';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     color: #00204C;
 }
@@ -1286,6 +1289,12 @@
 
 
 @media only screen and (max-width: 359.9px) {
+    .fotter_left {
+        margin-left: 6px;
+    }
+    .fotter_left>img {
+        width: 100px;
+    }
     .btn:hover {
         width: 214px;
         height: 54px;
@@ -1589,7 +1598,7 @@
     }
     .seven_content_text {
         margin-top: 10px;
-        font-size: 9px;
+        font-size: 8px;
         letter-spacing: 0.02em;
         line-height: 17px;
     }
@@ -2022,6 +2031,12 @@
     }
 }
 @media only screen and (min-width: 360px) and (max-width: 479.9px) {
+    .fotter_left {
+        margin-left: 8px;
+    }
+    .fotter_left>img {
+        width: 100px;
+    }
     .btn:hover {
         width: 214px;
         height: 54px;
@@ -2326,7 +2341,7 @@
     }
     .seven_content_text {
         margin-top: 10px;
-        font-size: 10px;
+        font-size: 9px;
         letter-spacing: 0.02em;
         line-height: 18px;
     }
@@ -2759,6 +2774,12 @@
     }
 }
 @media only screen and (min-width: 480px) and (max-width: 539.9px) {
+    .fotter_left {
+        margin-left: 15px;
+    }
+    .fotter_left>img {
+        width: 100px;
+    }
     .btn:hover {
         width: 214px;
         height: 54px;
@@ -3013,7 +3034,7 @@
         top: 354px;
     }
     .eight_second_text {
-        width: 380px;
+        width: 370px;
         height: auto;
         left: 60px;
         top: 190px;
@@ -3502,6 +3523,12 @@
     }
 }
 @media only screen and (min-width: 540px) and (max-width: 767.9px) {   
+    .fotter_left {
+        margin-left: 15px;
+    }
+    .fotter_left>img {
+        width: 100px;
+    }
     .btn:hover {
         width: 214px;
         height: 54px;
@@ -3751,7 +3778,7 @@
         top: 300px;
     }
     .eight_second_text {
-        width: 320px;
+        width: 330px;
         height: auto;
         left: 60px;
         top: 180px;
@@ -4250,6 +4277,12 @@
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 959.9px) {
+    .fotter_left {
+        margin-left: 15px;
+    }
+    .fotter_left>img {
+        width: 100px;
+    }
     .btn:hover {
         width: 216px;
         height: 54px;
@@ -4499,7 +4532,7 @@
         top: 0px;
     }
     .eight_second_text {
-        width: 280px;
+        width: 260px;
         height: 120px;
         left: 35px;
         top: 220px;
@@ -4554,7 +4587,7 @@
     }
     .seven_content_text {
         margin-top: 10px;
-        font-size: 11px;
+        font-size: 10px;
         letter-spacing: 0.02em;
         line-height: 20px;
     }
@@ -4968,6 +5001,12 @@
     }
 }
 @media only screen and (min-width: 960px) and (max-width: 1023.9px) {
+    .fotter_left {
+        margin-left: 15px;
+    }
+    .fotter_left>img {
+        width: 130px;
+    }
     .btn:hover {
         width: 214px;
         height: 54px;
@@ -5199,7 +5238,7 @@
         top: -9px;
     }
     .eight_second_text {
-        width: 340px;
+        width: 310px;
         height: 120px;
         left: 70px;
         top: 220px;
@@ -5254,7 +5293,7 @@
     }
     .seven_content_text {
         margin-top: 10px;
-        font-size: 13px;
+        font-size: 12px;
         letter-spacing: 0.02em;
         line-height: 22px;
     }
@@ -5673,6 +5712,9 @@
     }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1279.9px) {
+    .fotter_left {
+        margin-left: 25px;
+    }
     .btn:hover {
         width: 214px;
         height: 54px;
@@ -5900,7 +5942,7 @@
         top: -9px;
     }
     .eight_second_text {
-        width: 380px;
+        width: 370px;
         height: 120px;
         left: 70px;
         top: 270px;
@@ -5955,7 +5997,7 @@
     }
     .seven_content_text {
         margin-top: 10px;
-        font-size: 14px;
+        font-size: 13px;
         letter-spacing: 0.02em;
         line-height: 23px;
     }
@@ -6380,6 +6422,9 @@
     }
 }
 @media only screen and (min-width: 1280px) and (max-width: 1439.9px) {
+    .fotter_left {
+        margin-left: 25px;
+    }
     .btn:hover {
         width: 214px;
         height: 54px;
@@ -6665,7 +6710,7 @@
     }
     .seven_content_text {
         margin-top: 10px;
-        font-size: 16px;
+        font-size: 15px;
         letter-spacing: 0.02em;
         line-height: 25px;
     }
@@ -7068,6 +7113,9 @@
     }
 }
 @media only screen and (min-width: 1440px) and (max-width: 1679.9px) {
+    .fotter_left {
+        margin-left: 30px;
+    }
     .btn:hover {
         width: 214px;
         height: 54px;
@@ -7296,7 +7344,7 @@
         top: 2px;
     }
     .eight_second_text {
-        width: 511px;
+        width: 530px;
         height: 120px;
         left: 130px;
         top: 256px;
@@ -7346,7 +7394,8 @@
         letter-spacing: 0.02em;
     }
     .seven_content_text {
-        font-size: 16px;
+        margin-top: 4px;
+        font-size: 15px;
         letter-spacing: 0.02em;
         line-height: 24px;
     }
@@ -7723,6 +7772,9 @@
     }
 }
 @media only screen and (min-width: 1680px) and (max-width: 1919.9px) {
+    .fotter_left {
+        margin-left: 30px;
+    }
     .btn:hover {
         width: 270px;
         height: 60px;
@@ -7958,7 +8010,7 @@
         top: -1px;
     }
     .eight_second_text {
-        width: 511px;
+        width: 530px;
         height: auto;
         left: 130px;
         top: 310px;
@@ -8013,7 +8065,7 @@
     }
     .seven_content_text {
         margin-top: 15px;
-        font-size: 18px;
+        font-size: 17px;
         letter-spacing: 0.02em;
         line-height: 26px;
     }
@@ -8455,6 +8507,9 @@
     }
 }
 @media only screen and (min-width: 1920px) {
+    .fotter_left {
+        margin-left: 50px;
+    }
     .btn:hover {
         width: 300px;
         height: 66px;
@@ -8691,7 +8746,7 @@
         top: -2px;
     }
     .eight_second_text {
-        width: 550px;
+        width: 573px;
         height: auto;
         left: 130px;
         top: 350px;
@@ -8746,7 +8801,7 @@
     }
     .seven_content_text {
         margin-top: 15px;
-        font-size: 20px;
+        font-size: 19px;
         letter-spacing: 0.02em;
         line-height: 28px;
     }

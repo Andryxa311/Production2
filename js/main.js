@@ -225,15 +225,20 @@ btn.addEventListener('click',() => {
             btn.style.left = "0px";
         }, 420);
     } else {
-        fetch('https://belchikstudio.ru/api', {
+        const inouts = document.getElementsByClassName('input')
+         fetch('https://belchikstudio.ru/api', {
+            mode: "cors",
             method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+              },
+            body: JSON.stringify({
+                "name":inouts[0].value,
+                "phone":inouts[1].value,
+                "com_metod": element_now.id      
+            })
         })
-        .then((data) => {
-            console.log(data); 
-          });
-
-
-
+        
         let comunication_succsess_bacground = document.createElement("div")
         comunication_succsess_bacground.id = 'comunication_succsess_bacground'
         document.body.prepend(comunication_succsess_bacground);
