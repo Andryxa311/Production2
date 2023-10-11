@@ -225,6 +225,15 @@ btn.addEventListener('click',() => {
             btn.style.left = "0px";
         }, 420);
     } else {
+        fetch('https://belchikstudio.ru/api', {
+            method: 'POST',
+        })
+        .then((data) => {
+            console.log(data); 
+          });
+
+
+
         let comunication_succsess_bacground = document.createElement("div")
         comunication_succsess_bacground.id = 'comunication_succsess_bacground'
         document.body.prepend(comunication_succsess_bacground);
@@ -251,8 +260,6 @@ btn.addEventListener('click',() => {
         s_text2.className = 's_text2'
         s_text2.innerHTML = 'В самое ближайшее время мы свяжемся с <br/>Вами'
         comunication_succsess_bacground.append(s_text2);
-
-
         img3.addEventListener('click', () => {
             comunication_succsess_bacground.remove()
         })
